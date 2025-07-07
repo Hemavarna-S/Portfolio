@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemavarna S</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link rel="icon" href="My_logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cd76c7a1b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="PortfolioStyle.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <!=<i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <!--<p>CyberSecurity</p>-->
+                <h1>Hi, I'm <span>Hemavarna S</span><br></h1>
+                <h2><span>SOC </span>Analyst</h2>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm Hemavarna Sundararajkumar<br>
+                        Currently pursuing BE in Computer Science and Engineering.<br>
+                        Passionate about cybersecurity,Networking, IoT and front-end development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>CyberSecurity</span><br> Mastering in OSINT and Cryptography</li>
+                            <li><span>Networking</span><br> Computer Networking</li>
+                            <li><span>IoT</span><br>Knowledgable in IoT</li>
+                            <li><span>Front-End</span><br> Developing the Front-end of webpages</li>
+                            <li><span>UI/UX</span><br> Creating Stunning UI</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br> Sri Eshwar College of Engineering</li>
+                            <li><span>2016-2023</span><br> Thamarai Matric Hr. Sec. School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br> BE Computer Science and Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class ="sub-title"> My Projects</h1>
+            <div class="projects-list">
+
+                <div>
+            <i class="fa-solid fa-user-group"></i>
+            <h2>Kraft64</h2>
+            <p>A Tamil Traditional & Heritage Preservation Website showcasing native crafts, arts, and cultural roots.</p>
+            <a href="https://kraft64.vercel.app/">Click here</a>
+           </div>
+            <div>
+            <i class="fa-solid fa-notes-medical"></i>
+            <h2>HexNex</h2>
+            <p>Developed an Cybersecurity learning platform with an AI for help cyber threats</p>
+        <a href="https://hex-nex-pgbw.vercel.app/">Click here</a>
+        </div>
+                <div>
+                    <i class="fa-solid fa-ship"></i>
+                    <h2>Deep Blue Innovation</h2>
+                    <p>Exploring innovative solutions for ocean sustainability and development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            
+        
+    </div>
+        </div>
+    </div>
+<!-----------------------------Blogs----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Blogs</h1>
+        <div class="work-list">
+            <div class="work1">
+                <img src="Blog-1.png">
+                <div class="layer">
+                   <h3>Ethernet</h3> 
+                   <p>An overview of Ethernet's role in digital communication.</p>
+                   <a href="https://medium.com/@popeyee/ethernet-the-backbone-of-modern-networking-cbfa8709c96a"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+           
+            <div class="work">
+                <img src="Blog-2.png">
+                <div class="layer">
+                    <h3>Basics of Networking</h3> 
+                    <p>Learn about the foundational concepts of networking.</p> 
+                    <a href="https://medium.com/@popeyee/ethernet-the-backbone-of-modern-networking-cbfa8709c96a"><i class="fa-solid fa-link"></i></a>
+                    
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    
+</div>
+</div>
+
+    <!-----------Contact----------->
+    <div id ="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>hemavarnas25@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/hemavarna-s25/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="HEMAVARNA.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name ="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                   
+                </div>
+                
+            </div>
+            <span id="msg"></span>
+            <div class="copyright">
+                <p>copyright &copy; Hemavarna.Made by <i class="fa-solid fa-heart"></i> Hemavarna S</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function opentab(tabname) {
+            const tablinks = document.getElementsByClassName("tab-links");
+            const tabcontents = document.getElementsByClassName("tab-contents");
+
+           
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"; 
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzOFYmMW8btRSeRo2aytwFyOzKkYnIHQQJAlJH8x3GZB7Nd4HHHjccpTwxLtlG3UwTG/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+
+</body>
+</html>
